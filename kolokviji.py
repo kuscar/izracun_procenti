@@ -27,7 +27,7 @@ def vis(do_kolk):
         
         elif i == 4:
             arr.append(((4*del11 + del12)/170.0)*100.0)
-            arr.append((del21 / 100.0)*100.0)
+            arr.append((del21 / 92.0)*100.0)
             print("Teorija: {:.2f}% Praksa: {:.2f}% Skupaj: {:.2f}%".format(arr[1], arr[0], float(arr[0] + arr[1])/2.0))
 
         vsi.append(arr)
